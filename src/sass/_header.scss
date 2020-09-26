@@ -1,0 +1,130 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    //头部
+    .top-nav {
+        width: $w;
+        height: 80px;
+        position: relative;
+        // background: red; 
+        .logo {
+            //左标志
+            width: 80px;
+            height: $h;
+            float: left;
+            position: relative;
+            z-index: 1;
+            // background: yellow;
+        }
+        //右面
+        .navright {
+            height: $h;
+            width: 1182.67px;
+            float: right;
+            padding-left: 80px;
+            position: absolute;
+            top: 0;
+            // background: pink;
+            .onnav {
+                width: $w;
+                height: 40px;
+                background: #000000;
+                float: left;
+            }
+        }
+    }
+    
+    //navleft
+    .onnav .navleft {
+        float: left;
+        height: $h;
+        li {
+            list-style: none;
+            float: left;
+            a {
+                text-decoration: none;
+                line-height: 40px;
+                padding: 0 20px;
+                font-size: 12px;
+            }
+        }
+        .li1 {
+            background: #ffffff;
+            color: black;
+        }
+        .li2>a {
+            color: #ffffff;
+        }
+        .li3>a {
+            color: #ffffff
+        }
+    }
+    
+    .onnav .navleft .li3 span {
+        color: red;
+    }
+    
+    //navright
+    .onnav .navright1 {
+        margin-left: 400px;
+        float: left;
+        li {
+            list-style: none;
+            float: left;
+            padding: 0 10px;
+            line-height: 40px;
+            font-size: 12px;
+            .item {
+                text-decoration: none;
+                color: #ffffff;
+            }
+        }
+        .lastli {
+            text-align: center;
+            background: #f7f7f7 !important;
+            ;
+        }
+    }
+    
+    .bottomnav {
+        width: $w;
+        height: 40px;
+        .bleft {
+            float: left;
+            margin-left: 10px;
+            li {
+                float: left;
+                list-style: none;
+                a {
+                    text-decoration: none;
+                    padding: 0 10px;
+                    line-height: 40px;
+                    color: #000000;
+                }
+            }
+        }
+        .bright {
+            width: 413px;
+            height: 30px;
+            margin: 5px 0;
+            background: #e2e2e2;
+            border-radius: 4px;
+            float: right;
+            input {
+                border: none;
+                outline: none;
+                line-height: 30px;
+                margin-left: 10px;
+                background: #e2e2e2;
+                color: black;
+            }
+        }
+    }
+    
+    .bottomnav .bright span {
+        display: inline;
+        margin-left: 10px;
+        font-size: 12px;
+    }
