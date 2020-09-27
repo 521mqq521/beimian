@@ -1,170 +1,170 @@
-    //新闻
-    .news {
-        width: $w;
-        height: 32px;
-        background: #efefef;
-        li {
-            padding-left: 105px;
-            line-height: 32px;
-            list-style: none;
-            a {
-                text-decoration: none;
-                color: #5d5d5d;
-                font-size: 10px;
-            }
+//新闻
+.news {
+    width: $w;
+    height: 32px;
+    background: #efefef;
+    li {
+        padding-left: 105px;
+        line-height: 32px;
+        list-style: none;
+        a {
+            text-decoration: none;
+            color: #5d5d5d;
+            font-size: 10px;
         }
     }
-    
-    //   //滑动
-    .slide {
+}
+
+//   //滑动
+.slide {
+    width: $w;
+    height: 344.683px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    position: relative;
+    .img2 {
         width: $w;
-        height: 344.683px;
-        padding-bottom: 50px;
-        // background: slateblue;
-        .img2 {
-            // margin-bottom: 50px;
+        height: $h;
+    }
+}
+
+// the-vipeak
+.the-vipeak {
+    margin-top: 20px;
+    width: 1140px;
+    height: 295px;
+    margin: 0 auto;
+    // background: springgreen;
+    .left-pic {
+        width: 562px;
+        height: 295px;
+        // background: teal;
+        float: left;
+        .img3 {
             width: $w;
             height: $h;
         }
     }
-    
-    // the-vipeak
-    .the-vipeak {
-        margin-top: 20px;
-        width: 1140px;
+    .right-pic {
+        width: 562px;
         height: 295px;
-        margin: 0 auto;
-        // background: springgreen;
-        .left-pic {
-            width: 562px;
-            height: 295px;
-            // background: teal;
-            float: left;
-            .img3 {
-                width: $w;
-                height: $h;
-            }
-        }
-        .right-pic {
-            width: 562px;
-            height: 295px;
-            float: right;
-            // background: sandybrown;
-            .img4 {
-                width: $w;
-                height: $h;
-            }
+        float: right;
+        // background: sandybrown;
+        .img4 {
+            width: $w;
+            height: $h;
         }
     }
-    
-    // chose-nav
-    .chose-nav {
-        width: 1140px;
+}
+
+// chose-nav
+.chose-nav {
+    width: 1140px;
+    height: 60px;
+    // background: blue;
+    margin: 0 auto;
+    ul {
+        width: 726px;
         height: 60px;
-        // background: blue;
+        // background: red;
         margin: 0 auto;
-        ul {
-            width: 726px;
-            height: 60px;
-            // background: red;
-            margin: 0 auto;
-            font-size: 16px;
-            color: #787878;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            // flex-direction: column;
-            li {
-                list-style: none;
-                float: left;
-                a {
-                    text-decoration: none;
-                    margin: 0 20px;
-                    color: black;
-                }
-            }
-        }
-    }
-    
-    //showbox
-    .showbox {
-        width: 1140px;
-        height: 557.08px;
-        // background: turquoise;
-        margin: 0 auto;
-        ul {
-            width: $w;
-            li {
-                width: 280.5px;
-                list-style: none;
-                float: left;
-                margin-right: 6px;
-                .img5 {
-                    width: 280px;
-                    height: 557.08px;
-                }
-            }
-            .lastline {
-                margin-right: 0;
-            }
-        }
-    }
-    
-    //最佳销售单品
-    .best-seller-box {
-        width: 1140px;
-        height: 402px;
-        overflow: hidden;
-        // background: yellow;
-        margin: 0 auto;
-        .zuijia {
-            width: $w;
-            height: 22px;
-            font-weight: bold;
-            // background: yellowgreen;
-            margin: 0 auto;
-            text-align: center;
-            font-size: 20px;
-        }
-    }
-    
-    .best-seller-box .main-banner {
-        width: $w;
-        height: 350px;
-        margin-bottom: 30px;
-        // background: palegreen;
-        margin: 0 auto;
+        font-size: 16px;
+        color: #787878;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // flex-direction: column;
         li {
-            width: 238px;
-            height: 348px;
-            border: 1px solid gray;
-            margin-right: 60px;
             list-style: none;
             float: left;
             a {
                 text-decoration: none;
-                .img6 {
-                    width: 238px;
-                    height: 238px;
-                }
-                p {
-                    font-size: 14px;
-                    color: #000;
-                    margin: 10px 0;
-                    height: 45px;
-                    text-align: center;
-                }
-                .money {
-                    text-align: center;
-                    font-size: 14px;
-                }
+                margin: 0 20px;
+                color: black;
+            }
+        }
+    }
+}
+
+//showbox
+.showbox {
+    width: 1140px;
+    height: 557.08px;
+    // background: turquoise;
+    margin: 0 auto;
+    ul {
+        width: $w;
+        li {
+            width: 280.5px;
+            list-style: none;
+            float: left;
+            margin-right: 6px;
+            .img5 {
+                width: 280px;
+                height: 557.08px;
             }
         }
         .lastline {
             margin-right: 0;
         }
     }
-    
-    .main-banner {
-        margin-top: 30px;
+}
+
+//最佳销售单品
+.best-seller-box {
+    width: 1140px;
+    height: 402px;
+    overflow: hidden;
+    // background: yellow;
+    margin: 0 auto;
+    .zuijia {
+        width: $w;
+        height: 22px;
+        font-weight: bold;
+        // background: yellowgreen;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 20px;
     }
+}
+
+.best-seller-box .main-banner {
+    width: $w;
+    height: 350px;
+    margin-bottom: 30px;
+    // background: palegreen;
+    margin: 0 auto;
+    li {
+        width: 238px;
+        height: 348px;
+        border: 1px solid gray;
+        margin-right: 60px;
+        list-style: none;
+        float: left;
+        a {
+            text-decoration: none;
+            .img6 {
+                width: 238px;
+                height: 238px;
+            }
+            p {
+                font-size: 14px;
+                color: #000;
+                margin: 10px 0;
+                height: 45px;
+                text-align: center;
+            }
+            .money {
+                text-align: center;
+                font-size: 14px;
+            }
+        }
+    }
+    .lastline {
+        margin-right: 0;
+    }
+}
+
+.main-banner {
+    margin-top: 30px;
+}

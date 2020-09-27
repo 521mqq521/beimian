@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./font/iconfont.css">
     <link rel="stylesheet" href="./font1/iconfont.css">
+    <script src="../src/script/require.js" data-main="../src/script/main.js" defer async="true" id="currentpage" data-page="index_module"></script>
+
+
 </head>
 
 <body>
@@ -50,18 +53,22 @@
                     <li>
                         <a class="item" href="login.html">加入/登录VIPeak</a>
                     </li>
-                    <li>
+                    <li class="lii">
                         <a class="item" href="#">
                             <span class="iconfont icon-weizhi"></span> 门店查询
                         </a>
                     </li>
-                    <li>
+                    <li class="lis" style="position: relative;">
                         <a class="item" href="#">
                             <span class="iconfont icon-shouji"></span> 手机商城
                         </a>
+                        <div class="imgg" style="display: none; width:170px;height: 170px;background: #ffffff;">
+                            <img style="width:120px;height:120px;" src="https://img3.thenorthface.com.cn/public/images/e9/c9/da/175cf53820e1e7090dc82c0d2f95d87f03f43d22.png?1524594022#h" alt="">
+                        </div>
                     </li>
+
                     <li style=" width: 40px;height: 40px;">
-                        <a class="item" href="#">
+                        <a class="item " href="#">
                             <img src="https://img2.thenorthface.com.cn/public/images/b7/4c/45/1c2d3b1a27aa317b55002ec5a75b3ba6cdbbd0f7.png?1524133965#w" alt=""> CN
                         </a>
                     </li>
@@ -73,39 +80,310 @@
                 </ul>
             </div>
             <div class="bottomnav">
-                <ul class="bleft">
-                    <li>
-                        <a href="list.html">全部商品</a>
-                    </li>
-                    <li>
-                        <a href="list.html">男式</a>
-                    </li>
-                    <li>
-                        <a href="list.html">女式</a>
-                    </li>
-                    <li>
-                        <a href="list.html">鞋类</a>
-                    </li>
-                    <li>
-                        <a href="list.html">装备配件</a>
-                    </li>
-                    <li>
-                        <a href="list.html">Urban Exploration</a>
-                    </li>
-                    <li>
-                        <a href="list.html">童装</a>
-                    </li>
-                    <li>
-                        <a href="list.html">场景</a>
-                    </li>
-                </ul>
-                <div class="bright">
-                    <span class="iconfont icon-fangdajing"></span>
-                    <input type="text" name="search_keywords" value="" placeholder="搜索商品">
+                <div class="bleft">
+                    <ul>
+                        <li class="yiru" class="active">
+                            <a href="list.html">全部商品</a>
+                        </li>
+                        <li class="yiru">
+                            <a href="list.html">男式</a>
+                        </li>
+                        <li class="yiru">
+                            <a href="list.html">女式</a>
+                        </li>
+                        <li class="yiru">
+                            <a href="list.html">鞋类</a>
+                        </li>
+                        <li class="yiru">
+                            <a href="list.html">装备配件</a>
+                        </li>
+                        <li class="yiru">
+                            <a href="list.html">Urban Exploration</a>
+                        </li>
+                        <li class="yiru">
+                            <a href="list.html">童装</a>
+                        </li>
+                        <li class="yiru">
+                            <a href="list.html">场景</a>
+                        </li>
+                    </ul>
                 </div>
+                <!-- <div class="bleftcon"> -->
+
+                <div class="project">
+                    <ul>
+                        <li>
+                            <a href="list.html">
+                                <h3>新品系列</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                    20秋冬
+                                </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                   有我发现
+                                </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                    20春夏
+                                </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                    发现新路
+                                </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                    早春探索
+                                </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <div class="project">
+                    <ul>
+                        <li>
+                            <a href="list.html">
+                                <h3>新品系列</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                    秋冬
+                                </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                   有我发现
+                                </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                    20春夏
+                                </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                    发现
+                                </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                    早春
+                                </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="project">
+                    <ul>
+                        <li>
+                            <a href="list.html">
+                                <h3>新品系列</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                    20秋冬
+                                </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                   有我发现
+                                </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                    20春夏
+                                </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                    发现新路
+                                </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                    早春探索
+                                </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <div class="project">
+                    <ul>
+                        <li>
+                            <a href="list.html">
+                                <h3>新品系列</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                    20秋冬
+                                </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                   有我发现
+                                </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                    20春夏
+                                </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                    发现新路
+                                </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                    早春探索
+                                </a>
+                        </li>
+
+                    </ul>
+
+
+
+
+
+
+
+
+                    <div class="bright">
+                        <span class="iconfont icon-fangdajing"></span>
+                        <input type="text" name="search_keywords" value="" placeholder="搜索商品">
+                    </div>
+                </div>
+                <div class="project">
+                    <ul>
+                        <li>
+                            <a href="list.html">
+                                <h3>新品系列</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                20秋冬
+                            </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                               有我发现
+                            </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                20春夏
+                            </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                发现新路
+                            </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                早春探索
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="project">
+                    <ul>
+                        <li>
+                            <a href="list.html">
+                                <h3>新品系列</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                    20秋冬
+                                </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                   有我发现
+                                </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                    20春夏
+                                </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                    发现新路
+                                </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                    早春探索
+                                </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <div class="project">
+                    <ul>
+                        <li>
+                            <a href="list.html">
+                                <h3>新品系列</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                    20秋冬
+                                </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                   有我发现
+                                </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                    20春夏
+                                </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                    发现新路
+                                </a>
+                        </li>
+                        <li>
+                            <a href="list.html">
+                                    早春探索
+                                </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- </div> -->
             </div>
         </div>
     </div>
+
+
+
+
+
+
+
+
+
+
 
     <!-- news -->
 
@@ -123,9 +401,44 @@
 
     <!--slide -->
     <div class="slide">
+        <!-- 照片 -->
+        <!-- <ul> -->
+        <!-- <li> -->
         <a href="#">
-            <img class="img2" src="https://img2.thenorthface.com.cn/public/images/3b/1e/f3/e3274f69ae1e6fe8af460250044b563e4af61ad0.jpg?1597980680#w" alt="">
+            <img class="img2" src="https://img2.thenorthface.com.cn/public/images/b6/82/d0/04f7d7d6fc7c340cbca5803ea37cc160e48ebe86.jpg?1598929385#w" alt="">
         </a>
+        <!-- </li> -->
+        <!-- <li>
+                <a href="#">
+                    <img class="img2" src="https://img2.thenorthface.com.cn/public/images/3b/1e/f3/e3274f69ae1e6fe8af460250044b563e4af61ad0.jpg?1597980680#w" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img class="img2" src="https://img3.thenorthface.com.cn/public/images/4d/d5/3e/8b5d1b63e2eab978d03a721584a2cd083a810c44.jpg?1598585534#w" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img class="img2" src="http://img1.thenorthface.com.cn/public/images/b8/bb/47/128d1e05edddb0cb03a5dbeff672026bd5ba2c3d.gif" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img class="img2" src="https://img2.thenorthface.com.cn/public/images/b6/82/d0/04f7d7d6fc7c340cbca5803ea37cc160e48ebe86.jpg?1598929385#w" alt="">
+                </a>
+            </li> -->
+        <!-- </ul> -->
+        <!-- 小圆圈 -->
+        <!-- <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol> -->
+        <!-- 左箭头 -->
+        <!-- <a href="javascript:;" id="left">&lt;</a>
+        <a href="javascript:;" id="right">&gt;</a>  -->
     </div>
 
 
@@ -337,5 +650,6 @@
         </div>
     </div>
 </body>
+
 
 </html>

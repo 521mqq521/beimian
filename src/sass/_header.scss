@@ -80,6 +80,17 @@
                 text-decoration: none;
                 color: #ffffff;
             }
+            .lis .immg {
+                position: absolute;
+                left: 1;
+                right: 0;
+            }
+        }
+        .lii:hover a {
+            color: #6bc1ff;
+        }
+        .lis:hover .imgg {
+            display: block;
         }
         .lastli {
             text-align: center;
@@ -121,6 +132,36 @@
                 color: black;
             }
         }
+        .project {
+            width: 1263.33px;
+            height: 200px;
+            background: #f7f7f7;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 80px;
+            padding-left: 100px;
+            display: none;
+            // display: none;
+            li {
+                list-style: none;
+                font-size: 12px;
+                width: 100px;
+                overflow: hidden;
+                margin-bottom: 5px;
+                h3 {
+                    margin-top: 30px;
+                }
+                a {
+                    text-decoration: none;
+                    color: #000000;
+                }
+            }
+        }
+    }
+    
+    .active {
+        background: #f7f7f7;
     }
     
     .bottomnav .bright span {

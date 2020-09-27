@@ -85,6 +85,20 @@
   color: #ffffff;
 }
 
+.onnav .navright1 li .lis .immg {
+  position: absolute;
+  left: 1;
+  right: 0;
+}
+
+.onnav .navright1 .lii:hover a {
+  color: #6bc1ff;
+}
+
+.onnav .navright1 .lis:hover .imgg {
+  display: block;
+}
+
 .onnav .navright1 .lastli {
   text-align: center;
   background: #f7f7f7 !important;
@@ -130,6 +144,39 @@
   color: black;
 }
 
+.bottomnav .project {
+  width: 1263.33px;
+  height: 200px;
+  background: #f7f7f7;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 80px;
+  padding-left: 100px;
+  display: none;
+}
+
+.bottomnav .project li {
+  list-style: none;
+  font-size: 12px;
+  width: 100px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.bottomnav .project li h3 {
+  margin-top: 30px;
+}
+
+.bottomnav .project li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.active {
+  background: #f7f7f7;
+}
+
 .bottomnav .bright span {
   display: inline;
   margin-left: 10px;
@@ -158,6 +205,8 @@
   width: 100%;
   height: 344.683px;
   padding-bottom: 50px;
+  overflow: hidden;
+  position: relative;
 }
 
 .slide .img2 {
