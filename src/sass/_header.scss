@@ -3,12 +3,27 @@
         padding: 0;
     }
     
+    body {
+        position: relative;
+        z-index: -999999;
+    }
+    
+    .box1 {
+        width: $w;
+        height: 80s0px;
+        background: red;
+        position: fixed;
+        top: -100px;
+        z-index: 90;
+    }
+    
     //头部
     .top-nav {
         width: $w;
         height: 80px;
         position: relative;
-        // background: red; 
+        background: #ffffff;
+        ;
         .logo {
             //左标志
             width: 80px;
@@ -52,7 +67,9 @@
         }
         .li1 {
             background: #ffffff;
-            color: black;
+            >a {
+                color: black;
+            }
         }
         .li2>a {
             color: #ffffff;
