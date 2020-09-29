@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/detail.scss",
+        "../sass/_gonggeng.scss",
+        "../sass/_detail.scss"
+    ],
+    "names": [],
+    "file": "detail.css"
+}

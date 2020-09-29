@@ -168,3 +168,29 @@
     color: #707070;
     // background: blueviolet;
 }
+
+.the-footer {
+    position: relative;
+    ol {
+        position: absolute;
+        width: 130px;
+        height: 30px;
+        // background: red;
+        left: 52%;
+        margin-left: -50px;
+        top: -15px;
+        text-align: center;
+        li {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            border: 1px solid gray;
+            cursor: pointer;
+            float: left;
+            margin: 0 5px;
+        }
+        .active {
+            background: #000000;
+        }
+    }
+}
